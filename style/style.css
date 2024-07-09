@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Azeret Mono", monospace;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* start Navbr */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+    max-width: 90%;
+}
+.navbar h2{
+    font-size: 28px;
+    font-weight: 800;
+}
+.navbar button{
+    padding: 17px 24px;
+    border-radius: 8px;
+    background-color: white;
+}
+/* End Navbar */
+
+/* Start Main-Section */
+
+/* Start Future Developer-Section */
+.future-developer{
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.future-developer-flex{
+    width: 1000px;
+    text-align: center;
+}
+.future-developer-flex img{
+    height: 240px;
+    width: 240px;
+    margin: auto;
+    display: flex;
+}
+.future-developer-flex h1{
+    margin: 32px 0 24px 0;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+}
+.future-developer-flex p{
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 32px;
+    opacity: .7;
+}
+.future-developer-flex button{
+    padding: 21px 24px;
+    color: white;
+    background-color: #0D1321;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* End Future Developer-Section */
+
+
+
+
+
+/* @media (max-width: 700px) {
+    .navbar {
+      width: 100%;;
+    }
+  } */
