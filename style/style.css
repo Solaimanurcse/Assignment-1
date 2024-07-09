@@ -39,6 +39,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 80px;
 }
 .future-developer-flex{
     width: 1000px;
@@ -72,12 +73,87 @@
 }
 /* End Future Developer-Section */
 
+/* Start Web-Development-Section */
+.web-development{
+    background-color: #FAFAFB;
+    border-radius: 16PX;
+    padding: 80px 100px;
+}
+.web-development-header{
+    text-align: center;
+    padding: 0 48px;
+}
+.web-development-header h2{
+    font-size: 32px;
+    font-weight: 800;
+}
+.web-development-header p{
+    font-size: 16px;
+    line-height: 26px;
+    margin: 24px 0 48px 0;
+    opacity: .7;
+}
+.web-development-parts{
+    display: flex;
+    padding: 48px;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+.web-development-parts img{
+    height: 240px;
+    width: 275px;
+}
+.web-development-description h2{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+    opacity: .7;
+}
+.web-development-description p{
+    margin: 16px 0 32px 0;
+    line-height: 26px;
+    opacity: .7;
+}
+.web-development-description{
+    max-width: 480px;
+}
+.web-development-middle-parts{
+    display: flex;
+    padding: 48px; 
+    background-color: white;
+    gap: 32px;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+.web-development-description button{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+    background-color: #FAFAFB;
+    opacity: .7;
+}
+/* End Web-Development-Section */
 
 
 
 
-/* @media (max-width: 700px) {
-    .navbar {
-      width: 100%;;
+
+
+@media (max-width: 1300px) {
+    .web-development{
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
     }
-  } */
+  }
+  @media (max-width: 700px) {
+    .web-development-parts, .web-development-middle-parts{
+        display: block;
+        max-width: 100%;
+    }
+    .web-development-description{
+        padding-bottom: 20px;
+    }
+  }
