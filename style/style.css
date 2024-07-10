@@ -225,9 +225,67 @@
 .next-target-design-language-part{
     max-width: 100%;
 }
+/* End Target Section */
 
-
-
+/* Start Support-Section */
+.support-section{
+    background-image: url(../assets/handshake.jpg);
+    height: 315px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    max-width: 100%;
+    margin-bottom: 100px;
+}
+.support-description h2{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 36px;
+    color: white;
+    text-align: center;
+}
+.support-description p{
+    line-height: 26px;
+    opacity: 0.7;
+    margin: 16px 0 24px 0;
+    color: white;
+    max-width: 700px;
+    text-align: center;
+}
+.support-description input{
+    padding: 19px 20px;
+    width: 70%;
+    border-radius: 16px;
+    border: none;
+    margin-bottom: 15px;
+}
+.support-description button{
+    padding: 17px 20px;
+    font-size: 20px;
+    font-weight:600;
+    border-radius: 16px;
+    border: none;
+}
+/* End Support Section */
+/* StRT fOOTER */
+footer
+{
+    background-color: #f1f3f7;
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px;
+}
+.footer h3{
+    font-size: 20px;
+    padding: 15px 0;
+}
 
 
 @media (max-width: 1300px) {
@@ -255,5 +313,9 @@
     .add-video{
         padding: 2%;
         margin: 3%;
+    }
+    .footer{
+        padding: 10px;
+        display: inline;
     }
   }
