@@ -77,7 +77,9 @@
 .web-development{
     background-color: #FAFAFB;
     border-radius: 16PX;
-    padding: 80px 100px;
+    width: 1140px;
+    margin: 0 auto;
+    padding: 80px 0;
 }
 .web-development-header{
     text-align: center;
@@ -99,7 +101,7 @@
     justify-content: space-between;
     background: linear-gradient(to right, #FAFAFB, #FFFFFF);
     border-radius: 16px;
-    margin-bottom: 32px;
+    margin: 0 100px 32px 100px;
 }
 .web-development-parts img{
     height: 240px;
@@ -125,7 +127,7 @@
     background: linear-gradient(to left, #FAFAFB, #FFFFFF);
     gap: 32px;
     border-radius: 16px;
-    margin-bottom: 32px;
+    margin: 0 100px 32px 100px;
 }
 .web-development-description button{
     font-size: 20px;
@@ -158,7 +160,71 @@
     border-radius: 16px;
 }
 /* End My Inspiration-Section with common description section */
-
+/* Start target section with some common class work*/
+.categorys{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 110px;
+}
+.languages{
+    padding: 40px;
+    border-radius: 16px;
+    margin: 0 15px 15px 15px;
+}
+.languages h4{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin: 24px 0 7px 0;
+}
+.languages p{
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+.languages a{
+    color: #0D1321;
+    font-weight: bold;
+}
+.html{
+    background-color: #FFF6F4;
+}
+.css{
+    background-color:#F2F6FE;
+}
+.js{
+    background-color: #FFFDF2;
+}
+.next-target-section{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.next-target-design-language{
+    display: flex;
+    gap: 24px;
+    border: 2px solid rgb(208, 205, 205);
+    padding: 40px;
+    margin-bottom: 24px;
+    border-radius: 16px;
+    max-width: 100%;
+}
+.next-target-design-language-part h3{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+}
+.next-target-design-language-part p{
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+.next-target-design-language-part a{
+    color: #0D1321;
+    font-weight: bold;
+}
+.next-target-design-language-part{
+    max-width: 100%;
+}
 
 
 
@@ -170,11 +236,15 @@
         margin: 0;
         padding: 0;
     }
+    .next-target-section{
+        margin: 0 15px;
+    }
   }
   @media (max-width: 800px) {
     .web-development-parts, .web-development-middle-parts, .categorys{
         display: block;
         max-width: 100%;
+        margin: 0;
     }
     .web-development-description{
         padding-bottom: 20px;
